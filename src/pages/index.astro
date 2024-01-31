@@ -4,5 +4,109 @@ import "@/styles/globals.css";
 ---
 
 <Layout title="Frontend Mentor | Sunnyside agency landing page">
-  <main></main>
+  <!-- Header -->
+  <header
+    class="bg-hero-background p-14 flex justify-between items-center bg-cover"
+  >
+    <div class="">
+      <img src="/images/logo.svg" alt="logo" class="" />
+    </div>
+    <nav class="flex justify-between items-center gap-12">
+      <ul
+        class="text-[#fff] text-lg font-semibold leading-[1.5625rem] tracking-[-0.00806rem] flex justify-between items-center gap-[2.94rem]"
+      >
+        <li class=""><a href="" class="">About</a></li>
+        <li class=""><a href="" class="">Services</a></li>
+        <li class=""><a href="" class="">Projects</a></li>
+      </ul>
+      <button
+        class="w-[8.75rem] h-14 bg-[#fff] rounded-[1.75rem] text-[#24303E] text-[0.9375rem] font-bold leading-[1.5625rem] tracking-[-0.00669rem] uppercase"
+        >Contact</button
+      >
+    </nav>
+  </header>
+  <!-- Main -->
+  <main>
+    <!-- Hero Section -->
+    <section
+      class="bg-hero-background bg-cover bg-center pb-[40rem] flex flex-col items-center justify-center gap-24"
+    >
+      <h1
+        class="text-[#fff] text-[3.5rem] font-black leading-normal tracking-[0.54688rem] uppercase"
+      >
+        We are creatives
+      </h1>
+      <img src="/images/icon-arrow-down.svg" alt="" class="" />
+    </section>
+    <!-- Transform Your Brand Section -->
+    <section class="flex justify-between items-center">
+      <!-- Detailes  -->
+      <div
+        class="pl-[10.31rem] py-[10.31rem] pr-[3.56rem] flex flex-col gap-8 w-[27.8125rem]"
+      >
+        <h2
+          class="w-[27.8125rem]
+        text-[#24303E]
+        text-[2.5rem]
+        font-black
+        leading-normal
+        tracking-[-0.01788rem]"
+        >
+          Transform your brand
+        </h2>
+        <p
+          class="w-[27.8125rem] text-[#808397] text-lg font-semibold leading-[1.875rem] tracking-[-0.00806rem]"
+        >
+          We are a full-service creative agency specializing in helping brands
+          grow fast. Engage your clients through compelling visuals that do most
+          of the marketing for you.
+        </p>
+        <a
+          href="#"
+          class="text-[#24303E] text-[0.9375rem] font-black leading-[1.5625rem] tracking-[0.0625rem] uppercase underline decoration-yelowoish decoration-solid decoration-4"
+        >
+          Learn more</a
+        >
+      </div>
+      <!-- Image -->
+      <div class="">
+        <img src="/images/desktop/image-transform.jpg" alt="" class="" />
+      </div>
+    </section>
+    <!-- Stand out to the right audience Section -->
+    <section class="flex justify-between items-center">
+      <!-- Image -->
+      <div class="">
+        <img src="/public/images/desktop/image-stand-out.jpg" alt="" class="" />
+      </div>
+      <!-- Detailes  -->
+      <div
+        class="pl-[10.31rem] py-[10.31rem] pr-[3.56rem] flex flex-col gap-8 w-[27.8125rem]"
+      >
+        <h2
+          class="w-[27.8125rem]
+            text-[#24303E]
+            text-[2.5rem]
+            font-black
+            leading-normal
+            tracking-[-0.01788rem]"
+        >
+          Stand out to the right audience
+        </h2>
+        <p
+          class="w-[27.8125rem] text-[#808397] text-lg font-semibold leading-[1.875rem] tracking-[-0.00806rem]"
+        >
+          Using a collaborative formula of designers, researchers,
+          photographers, videographers, and copywriters, we’ll build and extend
+          your brand in digital places.
+        </p>
+        <a
+          href="#"
+          class="text-[#24303E] text-[0.9375rem] font-black leading-[1.5625rem] tracking-[0.0625rem] uppercase underline decoration-soft-red decoration-solid decoration-4"
+        >
+          Learn more</a
+        >
+      </div>
+    </section>
+  </main>
 </Layout>

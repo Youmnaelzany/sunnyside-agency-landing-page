@@ -14,6 +14,8 @@
 
 body {
   min-height: 100svh;
+  width: 90rem;
+  max-width: 1440px;
 }
 
 img,
@@ -41,7 +43,7 @@ h6 {
 /* 75ch not higher than that */
 p {
   max-width: 75ch;
-  text-wrap: pretty;
+  text-wrap: nowrap;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -49,4 +51,8 @@ p {
     scroll-behavior: smooth;
     scroll-padding-top: 3rem;
   }
+}
+
+.hero-background {
+  background-image: url("/images/desktop/image-header.jpg");
 }

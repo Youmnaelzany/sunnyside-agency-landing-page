@@ -16,7 +16,16 @@ module.exports = {
         "2xl": "1400px",
       },
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        "hero-background": "url('/public/images/desktop/image-header.jpg')",
+        "footer-texture": "url('/img/footer-texture.png')",
+      },
+      colors: {
+        yelowoish: "hsl(51, 100%, 49%)",
+        "soft-red": "hsl(7, 99%, 70%)",
+      },
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };
