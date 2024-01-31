@@ -9,6 +9,10 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    fontFamily: {
+      Barlow: ['"Barlow"', "sans-serif"],
+      Fraunces: ['"Fraunces"', "sans-serif"],
+    },
     container: {
       center: true,
       padding: "2rem",
