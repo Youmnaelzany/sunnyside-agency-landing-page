@@ -43,7 +43,7 @@ h6 {
 /* 75ch not higher than that */
 p {
   max-width: 75ch;
-  text-wrap: nowrap;
+  text-wrap: pretty;
 }
 
 @media (prefers-reduced-motion: no-preference) {

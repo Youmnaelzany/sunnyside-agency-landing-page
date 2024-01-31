@@ -18,8 +18,7 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        "hero-background": "url('/public/images/desktop/image-header.jpg')",
-        "footer-texture": "url('/img/footer-texture.png')",
+        "hero-background": "url('/images/desktop/image-header.jpg')",
       },
       colors: {
         yelowoish: "hsl(51, 100%, 49%)",
