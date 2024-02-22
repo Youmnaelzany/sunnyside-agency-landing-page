@@ -9,20 +9,25 @@ module.exports = {
   ],
   prefix: "",
   theme: {
+    screens: {
+      sm: "375px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1441px",
+    },
     fontFamily: {
       Barlow: ['"Barlow"', "sans-serif"],
       Fraunces: ['"Fraunces"', "sans-serif"],
     },
-    container: {
-      center: true,
-      padding: "2rem",
-      screens: {
-        "2xl": "1400px",
-      },
-    },
     extend: {
       backgroundImage: {
-        "hero-background": "url('/images/desktop/image-header.jpg')",
+        "hero-background-desktop": "url('/images/desktop/image-header.jpg')",
+        "hero-background-mobile": "url('/images/mobile/image-header.jpg')",
+        "image-photography-desktop": "url('/images/desktop/image-photography.jpg')",
+        "image-photography-mobile": "url('/images/mobile/image-photography.jpg')",
+        "graphic-design-desktop": "url('/images/desktop/image-graphic-design.jpg')",
+        "graphic-design-mobile": "url('/images/mobile/image-graphic-design.jpg')",
+
       },
       colors: {
         yelowoish: "hsl(51, 100%, 49%)",
